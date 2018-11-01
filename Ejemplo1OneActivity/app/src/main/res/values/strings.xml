@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejemplo 1: OneActivity</string>
+    <string name="nombre">Nombre</string>
+    <string name="txtNombre">Escribe tu nombre</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="limpiar">Limpiar</string>
+</resources>

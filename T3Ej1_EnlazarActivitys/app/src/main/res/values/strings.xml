@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ACTIVITY PRINCIPAL</string>
+    <string name="botonA1">Acceder al Activity #1</string>
+    <string name="botonA2">Acceder al Activity #2</string>
+    <string name="botonA3">Acceder al Activity #3</string>
+    <string name="volver">VOLVER AL MAIN</string>
+    <string name="title_ac1">ACTIVITY #1</string>
+    <string name="title_ac2">ACTIVITY #2</string>
+    <string name="title_ac3">ACTIVITY #3</string>
+</resources>

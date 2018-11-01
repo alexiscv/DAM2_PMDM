@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejemplo2DosActividades</string>
+    <string name="escribeNombre">Escribe tu nombre y pulsar el botón</string>
+    <string name="botonAceptar">Aceptar</string>
+    <string name="title_activity_saludo">Pantalla Saludo</string>
+</resources>
