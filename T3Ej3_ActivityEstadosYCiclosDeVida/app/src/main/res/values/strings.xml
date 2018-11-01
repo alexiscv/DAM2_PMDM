@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">T3Ej3_ActivityEstadosYCiclosDeVida</string>
+    <string name="textoLog">Aquí se registrará lo que escribas en el campo de texto para que no se pierda!</string>
+    <string name="textoContador">Aquí se registrará el número de veces que pulses en un checkbox!</string>
+    <string name="escribeAqui"></string>
+    <string name="check1">CheckBox #1</string>
+    <string name="check2">CheckBox #2</string>
+    <string name="check3">CheckBox #3</string>
+
+</resources>
