@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/escribeAqui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escribeAqui" />
+
+    <EditText
+        android:id="@+id/editarTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/escribeAqui"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/BotonOk"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editarTexto"
+        android:layout_alignParentRight="true"
+        android:text="OK"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/BotonCancel"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@id/BotonOk"
+        android:layout_toLeftOf="@id/BotonOk"
+        android:text="CANCEL"
+        android:textSize="10sp" />
+
+</RelativeLayout>
