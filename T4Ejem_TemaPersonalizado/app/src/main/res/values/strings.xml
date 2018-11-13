@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">T4Ejem_TemaPersonalizado</string>
+    <string name="sendButton">Enviar</string>
+    <string name="newsletterText">¿Desea recibir futuros artículos y promociones de Hermosa Programación?</string>
+    <string name="optionsHeader">OPCIONES</string>
+    <string name="emailField">armandito@mail.com</string>
+    <string name="phoneField">666999666</string>
+    <string name="nameField">Armando Comedia</string>
+    <string name="dataHeader">TUS DATOS</string>
+</resources>

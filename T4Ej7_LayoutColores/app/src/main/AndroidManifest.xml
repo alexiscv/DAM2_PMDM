@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alexiscv.t4ej2_ejemploslayoutssencillos">
+    package="com.alexiscv.t4ej7_layoutcolores">
 
     <application
         android:allowBackup="true"
@@ -16,9 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TableLayout" />
-        <activity android:name=".LinearLayoutCombinado" />
-        <activity android:name=".CalculadoraLinearLayout"></activity>
     </application>
 
 </manifest>
