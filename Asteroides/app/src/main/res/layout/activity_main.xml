@@ -21,22 +21,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/EstiloTexto"/>
 
     <Button
         android:id="@+id/jugar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/jugar" />
+        android:text="@string/jugar"
+        style="@style/EstiloTexto.Botones"/>
 
     <Button
         android:id="@+id/configurar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/configurar" />
+        android:text="@string/configurar"
+        style="@style/EstiloTexto.Botones"/>
 
     <Button
         android:id="@+id/acercade"
+        style="@style/EstiloTexto.Botones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/acercade" />
@@ -45,6 +49,7 @@
         android:id="@+id/salir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/salir" />
+        android:text="@string/salir"
+        style="@style/EstiloTexto.Botones"/>
 
 </LinearLayout>
