@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web" />
+
+    <EditText
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textUri" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejemplo" />
+
+    <EditText
+        android:id="@+id/ejemplo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textCapCharacters|textMultiLine|textNoSuggestions" />-->
+
+    <!-- imeOptions permite especificar acciones -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ime" />
+
+    <EditText
+        android:id="@+id/imeSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionSend"
+        android:inputType="text" />
+
+    <!--<EditText
+        android:id="@+id/ime2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionLabel="Go"
+        android:imeOptions="actionGo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ime3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionLabel="Buscar"
+        android:imeOptions="actionSearch"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sugerencias" />-->
+
+    <!-- Necesitamos un adaptador, que se configura en JAVA -->
+    <AutoCompleteTextView
+        android:id="@+id/autocompletar_paises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></AutoCompleteTextView>
+
+    <!-- Campo escuchado -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escuchado" />
+
+    <EditText
+        android:id="@+id/campoEscuchado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <!-- Campo HTML -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/html" />
+
+    <EditText
+        android:id="@+id/campoHTML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textMultiLine"/>
+
+    <EditText
+        android:id="@+id/campoSPAN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textMultiLine"/>
+
+    <!-- Seleccionar y modificar texto -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejemploSeleccion"/>
+    <EditText
+        android:id="@+id/resaltaTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/botonResaltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resaltar"/>
+</LinearLayout>

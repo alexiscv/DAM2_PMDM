@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pulsado -->
+    <item android:drawable="@drawable/pulsado" android:state_pressed="true"></item>
+
+    <!-- Con el foco -->
+    <item android:drawable="@drawable/foco" android:state_focused="true"></item>
+
+    <!-- Por defecto, muy importante que esté el último, porque se ejecuta en orden, como un CSS -->
+    <item android:drawable="@drawable/nopulsado"></item>
+
+</selector>

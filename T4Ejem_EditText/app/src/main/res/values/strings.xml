@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">T4Ejem_EditText</string>
+    <string name="email">Email</string>
+    <string name="telefono">Teléfono</string>
+    <string name="web">Página web</string>
+    <string name="ejemplo">Ejemplo de inputType</string>
+    <string name="ime">imeOptions</string>
+    <string name="sugerencias">Texto con sugerencias</string>
+    <string name="escuchado">Campo Escuchado</string>
+    <string name="html">Campo con HTML5</string>
+    <string name="ejemploSeleccion">Resalta el texto</string>
+    <string name="resaltar">Resaltar</string>
+
+    <!-- Array de sugerencias para autocompletar -->
+    <string-array name="paises_array">
+        <item>Afganistan</item>
+        <item>Albania</item>
+        <item>America Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antartica</item>
+    </string-array>
+</resources>

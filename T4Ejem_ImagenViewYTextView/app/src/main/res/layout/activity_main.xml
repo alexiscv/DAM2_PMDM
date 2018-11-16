@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Si queremos hacer una imagen clickeable, tenemos que usar clickable=true -->
+    <!-- No vamos la imagen de este ImageView porque está establecido desde JAVA -->
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Imagen de prueba, texto para accesibilidad"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Imagen de prueba, texto para accesibilidad"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:shadowColor="@color/verde"
+        android:shadowRadius="1.5"
+        android:shadowDx="1"
+        android:shadowDy="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World! ejemplo de autolink para tlf: 666999666 y para web http://alexiscv.com"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:autoLink="phone|web"/>
+
+</LinearLayout>

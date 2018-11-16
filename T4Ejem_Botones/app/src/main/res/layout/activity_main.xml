@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_personalizado"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:drawableLeft="@mipmap/ic_launcher"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_toggle_personalizado" />
+
+
+    <!-- Un LinearLayout con 2 botones separados y sin bordes -->
+    <LinearLayout
+        android:id="@+id/barraBotones"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botonAceptar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/aceptar" />
+
+        <Button
+            android:id="@+id/botonCancelar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancelar" />
+
+    </LinearLayout>
+
+    <!--
+    Añadir librerías externas a un proyecto de Android Studio
+
+    Para hacer uso de una librería externa en un proyecto de Android Studio tenemos dos posibilidades:
+    añadir el fichero jar de la librería a la carpeta /libs del módulo, o bien añadir la referencia a la librería
+    (si está disponible) como dependencia en el fichero build.gradle del módulo (en la mayoría de ocasiones
+    usaremos esta segunda opción). En este caso, añadiremos a nuestro fichero build.gradle la siguiente
+    línea en el apartado dependencies:
+
+    en app / build.gradle
+
+    dependencies {
+    …
+    compile 'com.android.support:design:22.2.0'
+    }
+
+    Una vez añadida la referencia a la librería, salvamos el fichero y nos aseguramos de pulsar la
+    opción “Sync Now” que nos aparecerá en la parte superior derecha del editor de código:
+
+    gradle_sync_now
+
+    Tras esto, Android Studio se encargará de descargar automáticamente los ficheros necesarios y
+    cuando sea necesario para que podamos hacer uso de la librería.
+    -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_margin="16dp" />
+
+</LinearLayout>
