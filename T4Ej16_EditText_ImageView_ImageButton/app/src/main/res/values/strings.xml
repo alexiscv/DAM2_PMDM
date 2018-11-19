@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T4Ej16_EditText_ImageView_ImageButton</string>
+    <string name="escogeImagen">Escoge una imagen</string>
+    <string name="escogeEscalado">Escoge un escalado</string>
+</resources>

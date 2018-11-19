@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">T4Ej10_ConstruirLayoutConJava</string>
+    <string name="rojo">RED</string>
+    <string name="naranja">ORANGE</string>
+    <string name="amarillo">YELLOW</string>
+    <string name="verde">GREEN</string>
+    <string name="azul">BLUE</string>
+    <string name="morado">INDIGO</string>
+    <string name="violeta">VIOLET</string>
+</resources>

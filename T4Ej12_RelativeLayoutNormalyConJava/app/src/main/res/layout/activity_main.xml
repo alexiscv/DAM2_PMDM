@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:id="@+id/rojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/rojo"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/naranja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="10dp"
+        android:text="@string/naranja" />
+
+    <TextView
+        android:id="@+id/amarillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@color/amarillo"
+        android:padding="10dp"
+        android:text="@string/amarillo" />
+
+    <TextView
+        android:id="@+id/azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@color/azul"
+        android:padding="10dp"
+        android:text="@string/azul"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/verde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/azul"
+        android:background="@android:color/holo_green_light"
+        android:padding="10dp"
+        android:text="@string/verde" />
+
+    <TextView
+        android:id="@+id/morado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/azul"
+        android:background="@color/morado"
+        android:padding="10dp"
+        android:text="@string/morado" />
+
+    <TextView
+        android:id="@+id/violeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/violetaTransparente"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/violeta" />
+
+</RelativeLayout>

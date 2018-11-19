@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="escalas">
+        <item>CENTER</item>
+        <item>CENTER_CROP</item>
+        <item>CENTER_INSIDE</item>
+        <item>FIT_CENTER</item>
+        <item>FIT_END</item>
+        <item>FIT_START</item>
+        <item>FIT_XY</item>
+    </string-array>
+
+    <string-array name="imagenes">
+        <item>@drawable/animales1</item>
+        <item>@drawable/animales2</item>
+        <item>@drawable/animales3</item>
+        <item>@drawable/animales4</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TableRow principal, contenido centrado y ocupa más espacio -->
+    <TableRow
+        android:id="@+id/fotoCentro"
+        android:layout_weight="1.5"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/fotoPrincipal"
+            android:layout_width="208dp"
+            android:layout_height="207dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/animales1" />
+    </TableRow>
+
+    <!-- Texto orientativo -->
+    <TableRow>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/escogeImagen" />
+
+    </TableRow>
+
+    <!-- TableRow dinámico, cargará tantas columnas como imagenes tengamos en drawable -->
+    <TableRow
+        android:id="@+id/miniaturas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TableRow>
+
+    <!-- Texto orientativo -->
+    <TableRow>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/escogeEscalado" />
+    </TableRow>
+
+    <!-- Autocompletable -->
+    <TableRow>
+
+        <AutoCompleteTextView
+            android:id="@+id/escalas"
+            android:hint="escalado a aplicar" />
+    </TableRow>
+
+
+</TableLayout>

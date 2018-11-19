@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">T4Ej15_ControlesDeEntradaEditText</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="tlf">Teléfono</string>
+    <string name="email">E-Mail</string>
+    <string name="direccion">Dirección</string>
+    <string name="comentario">Comentario</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="comunidadautonoma">Comunidad Autonoma</string>
+
+    <string-array name="comunidadautonoma">
+        <item name="asturias">Principado de Asturias</item>
+        <item name="leon">Castilla y León</item>
+    </string-array>
+</resources>

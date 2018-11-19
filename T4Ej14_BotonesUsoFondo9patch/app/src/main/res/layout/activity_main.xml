@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bTexto"
+        android:layout_width="103dp"
+        android:layout_height="88dp"
+        android:layout_above="@+id/bImagen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="BOTON TEXTO" />
+
+    <Button
+        android:id="@+id/bImagen"
+        android:layout_width="209dp"
+        android:layout_height="69dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/boton_azul"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bTextoImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:layout_below="@+id/bImagen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/fondoboton"
+        android:text="BOTON TEXTO IMAGEN" />
+
+</RelativeLayout>

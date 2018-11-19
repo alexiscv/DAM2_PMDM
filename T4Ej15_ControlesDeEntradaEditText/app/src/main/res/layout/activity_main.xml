@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellidos"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/tlf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tlf"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textWebEmailAddress"/>
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/direccion"
+        android:inputType="textPostalAddress"
+        android:imeOptions="actionSearch"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/comunidadautonoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comunidadautonoma" />
+
+    <EditText
+        android:id="@+id/comentario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="top"
+        android:hint="@string/comentario"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="@string/enviar"/>
+
+</LinearLayout>

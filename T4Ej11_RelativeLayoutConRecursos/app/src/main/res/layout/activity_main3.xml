@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/2"
+        android:layout_toLeftOf="@id/2"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:background="@color/red"
+        android:padding="8px"
+        android:text="@string/red" />
+
+    <TextView
+        android:id="@+id/2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/3"
+        android:layout_toLeftOf="@id/3"
+        android:background="@color/orange"
+        android:padding="8px"
+        android:text="@string/orange" />
+
+    <TextView
+        android:id="@+id/3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/4"
+        android:layout_toLeftOf="@id/4"
+        android:background="@color/yellow"
+        android:padding="8px"
+        android:text="@string/yellow" />
+
+    <TextView
+        android:id="@+id/4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/green"
+        android:padding="8px"
+        android:text="@string/green" />
+
+    <TextView
+        android:id="@+id/5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/4"
+        android:layout_toLeftOf="@id/4"
+        android:background="@color/blue"
+        android:padding="8px"
+        android:text="@string/blue" />
+
+    <TextView
+        android:id="@+id/6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/5"
+        android:layout_toLeftOf="@id/5"
+        android:background="@color/indigo"
+        android:padding="8px"
+        android:text="@string/indigo" />
+
+    <TextView
+        android:id="@+id/7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/6"
+        android:layout_toLeftOf="@id/6"
+        android:background="@color/violet"
+        android:padding="8px"
+        android:text="@string/violet" />
+
+</RelativeLayout>
