@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">T4Ejem_Spinner</string>
+
+    <string-array name="planetas">
+        <item>Coruscant</item>
+        <item>Hot</item>
+        <item>Dagobah</item>
+        <item>Alderaan</item>
+        <item>Naboo</item>
+        <item>Tatooine</item>
+    </string-array>
+</resources>

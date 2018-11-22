@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3FFC8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:text="@string/titulo"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <!-- EditText para la contraseña -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:hint="@string/introducetupass"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:textSize="23dp">
+
+        <requestFocus></requestFocus><!-- Solicita el foco onload -->
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/validacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8FFB8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fortaleza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/fortaleza"
+            android:textColor="#000099" />
+
+        <!-- Para mostrar el nivel de fortaleza -->
+        <TextView
+            android:id="@+id/nivelForzaleza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="No hay contraseña"
+            android:textColor="#005C00"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

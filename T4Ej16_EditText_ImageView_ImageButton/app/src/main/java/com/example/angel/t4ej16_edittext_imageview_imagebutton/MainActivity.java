@@ -4,8 +4,6 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -57,9 +55,6 @@ public class MainActivity extends AppCompatActivity {
         // Recorremos las imagenes...
         for (Drawable img : imagenes) {
 
-            // Generamos el ID de la IMG
-            cuenta++;
-
             // ... Por cada imagen, creamos un ImageView y cargamos el recurso
             ImageButton imagen = new ImageButton(this);
             imagen.setLayoutParams(params);
@@ -71,6 +66,9 @@ public class MainActivity extends AppCompatActivity {
             // Añadimos la imagen al contenedor
             rowMiniaturas.addView(imagen);
 
+            // Generamos el siguiente ID de la IMG
+            cuenta++;
+
             // Creamos un Listener para esta imagen
             imagen.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -78,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // Sustituimos la imagen principal, por la imagen que hemos pulsado
                     ImageView imagenPrincipal = findViewById(R.id.fotoPrincipal);
-                    imagenPrincipal.setImageDrawable( ((ImageView) v).getDrawable() );
+                    imagenPrincipal.setImageDrawable(((ImageView) v).getDrawable());
 
                 }
             });
