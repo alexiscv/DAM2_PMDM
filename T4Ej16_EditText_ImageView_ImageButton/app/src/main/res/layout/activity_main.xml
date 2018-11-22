@@ -3,19 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
+    android:shrinkColumns="*"
     tools:context=".MainActivity">
 
     <!-- TableRow principal, contenido centrado y ocupa más espacio -->
     <TableRow
         android:id="@+id/fotoCentro"
-        android:layout_weight="1.5"
-        android:gravity="center">
+        android:layout_weight="1.5">
 
         <ImageView
             android:id="@+id/fotoPrincipal"
-            android:layout_width="208dp"
-            android:layout_height="207dp"
-            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
             android:src="@drawable/animales1" />
     </TableRow>
 
@@ -57,7 +58,12 @@
 
         <AutoCompleteTextView
             android:id="@+id/escalas"
-            android:hint="escalado a aplicar" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="escalado a aplicar"
+            android:inputType="textCapCharacters" />
     </TableRow>
 
 
