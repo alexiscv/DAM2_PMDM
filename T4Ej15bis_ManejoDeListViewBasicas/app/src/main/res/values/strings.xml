@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">T4Ej15bis_ManejoDeListViewBasicas</string>
+    <string name="titulo">Introducie feedback a enviar:</string>
+    <string name="nombre">nombre</string>
+    <string name="email">Tu email</string>
+    <string name="mensaje">Detalles del feedback</string>
+    <string name="checkRespuesta">¿Te gustaría recibir una respuesta por e-mail?</string>
+    <string name="botonEnviar">Enviar Feedback</string>
+    <string name="promptOpciones">Selecciona una opción</string>
+
+    <string-array name="opciones">
+        <item>Elogio</item>
+        <item>Crítica</item>
+        <item>Sugerencia</item>
+        <item>Bug</item>
+    </string-array>
+</resources>

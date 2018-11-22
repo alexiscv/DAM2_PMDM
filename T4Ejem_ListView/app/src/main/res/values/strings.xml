@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">T4Ejem_ListView</string>
+    <string name="botonListadoPersonalizado">ver listado personalizado</string>
+
+    <string-array name="array_animales">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Ratón</item>
+        <item>Loro</item>
+        <item>León</item>
+    </string-array>
+</resources>

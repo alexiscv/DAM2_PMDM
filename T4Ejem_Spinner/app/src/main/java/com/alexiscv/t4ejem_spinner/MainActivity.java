@@ -1,14 +1,12 @@
 package com.alexiscv.t4ejem_spinner;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         // Especifica el layout a usar cuando la lista de opciones aparece
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
+        // Asociar el Prompt al Spinner
+        desplegable.setPromptId(R.string.prompt_desplegable);
+
         // Asocia el adaptador al spinner
         desplegable.setAdapter(adaptador);
 
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
                 // Las acciones...
-                mensajes.setText("Has seleccionado: "+ listadoPlanetas[position]);
+                mensajes.setText("Has seleccionado: " + listadoPlanetas[position]);
 
             }
 
