@@ -16,7 +16,8 @@ import java.util.ArrayList;
 public class MainActivity extends Activity {
 
     private ListView listado;
-    private String[] ciudades = {"Arriondas", "Aviles", "Ribadesella", "Gijón", "Cangas de Onís", "Oviedo"};;
+    private String[] ciudades = {"Arriondas", "Aviles", "Ribadesella", "Gijón", "Cangas de Onís", "Oviedo"};
+    ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +35,16 @@ public class MainActivity extends Activity {
 
     }
 
-    public void verListadoPersonalizado(View v){
+    public void verListadoPersonalizado(View v) {
 
         Intent listadoPersonalizado = new Intent(this, ListaPersonalizada.class);
         startActivity(listadoPersonalizado);
 
+    }
+
+    public void verListadoAnimales(View view) {
+
+        Intent listadoAnimales = new Intent(this, ListaConFoto.class);
+        startActivity(listadoAnimales);
     }
 }
