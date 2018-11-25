@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivFotoFilosofoItem"
+        android:layout_width="?android:listPreferredItemHeight"
+        android:layout_height="?android:listPreferredItemHeight"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvNombreFilosofoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/app_name"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+</LinearLayout>

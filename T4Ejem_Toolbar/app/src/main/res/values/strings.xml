@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T4Ejem_Toolbar</string>
+    <string name="titulo">Ejemplo de titulo</string>
+    <string name="subtitulo">Descripción de ejemplo de esta activity</string>
+</resources>

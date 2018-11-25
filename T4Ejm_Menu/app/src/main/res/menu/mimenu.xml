@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!-- xmlns:app="http://schemas.android.com/apk/res-auto"
+crea un espacio de nombres, para usarlo cuando por compatibilidad no podemos
+sar android:... -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Las distintas opciones para showasaaction están en Apuntes 11-12-ActionBarI -->
+    <item
+        android:id="@+id/ajustes"
+        android:orderInCategory="100"
+        android:title="@string/ajustes"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/guardar"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/menu_new"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/nuevo"
+        app:showAsAction="ifRoom|withText"></item>
+
+    <item
+        android:id="@+id/buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/buscar"
+        app:showAsAction="ifRoom"></item>
+</menu>

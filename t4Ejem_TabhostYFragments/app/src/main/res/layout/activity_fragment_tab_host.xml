@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!-- el ID del TabHost debe ser "@android:id/tabhost" -->
+<android.support.v4.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentTabHostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TabWidget contiene las pestañas, el id debe ser  "@android:id/tabs" -->
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TabWidget>
+
+        <!-- Contiene un FrameLayout,
+        que tiene que tener como id "@android:id/tabcontent" -->
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- El contenido se cre en archivos xml individuales -->
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</android.support.v4.app.FragmentTabHost>
