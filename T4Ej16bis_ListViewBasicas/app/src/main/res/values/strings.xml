@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T4Ej16bis_ListViewBasicas</string>
+    <string name="itemSeleccionado">Aquí se mostrará el item seleccionado</string>
+    <string name="verListado2">VER LISTADO 2</string>
+</resources>

@@ -10,6 +10,10 @@ public class MainActivity extends AppCompatActivity {
 
     private Button bAcercaDe;
     private Button bCerrar;
+    private Button bPuntuaciones;
+    // Al ser public podremos acceder sin necesidad de métodos y por ser static
+    // el valor será compartido por todos los obetos de la clase.
+    public static AlmacenPuntuaciones almacen = new AlmacenPuntuacionesArray();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +38,34 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Listener para lanzar las puntuaciones
+        bPuntuaciones = findViewById(R.id.puntuaciones);
+        bPuntuaciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                lanzarPuntuaciones(null);
+
+            }
+        });
 
 
     }
 
-    // Cuando pulsemos el botón acerca de...
+    /**
+     * Permite iniciar el Activity Puntuaciones
+     *
+     * @param o
+     */
+    private void lanzarPuntuaciones(Object o) {
+        Intent i = new Intent(this, Puntuaciones.class);
+        startActivity(i);
+    }
+
+    /**
+     * Permite lanzar AcercaDe
+     *
+     * @param view
+     */
     public void lanzarcercaDe(View view) {
         Intent i = new Intent(this, AcercaDe.class);
         startActivity(i);
@@ -46,9 +73,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Al pulsar Salir
+     * Permite cerrar al APP.
+     *
+     * @param view
      */
-    public void cerrarApp(View view){
+    public void cerrarApp(View view) {
         finish();
     }
 }

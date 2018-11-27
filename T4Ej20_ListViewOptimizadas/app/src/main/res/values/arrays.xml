@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nombres_elementos">
+        <item>Un Item</item>
+        <item>Otro</item>
+        <item>Otro item</item>
+        <item>Otro más</item>
+        <item>Y otro</item>
+        <item>Y otro más</item>
+        <item>Otro más aún</item>
+        <item>Y otro más</item>
+        <item>El último item</item>
+    </string-array>
+
+    <string-array name="iconos_elementos">
+        <item>@drawable/icon_001</item>
+        <item>@drawable/icon_002</item>
+        <item>@drawable/icon_003</item>
+        <item>@drawable/icon_004</item>
+        <item>@drawable/icon_005</item>
+        <item>@drawable/icon_006</item>
+        <item>@drawable/icon_007</item>
+        <item>@drawable/icon_008</item>
+        <item>@drawable/icon_009</item>
+    </string-array>
+</resources>

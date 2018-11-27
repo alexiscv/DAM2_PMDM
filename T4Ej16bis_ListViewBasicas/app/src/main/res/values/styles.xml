@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string-array name="arrayDatos">
+        <item>Manzanas</item>
+        <item>Lechuga</item>
+        <item>Zanahorias</item>
+        <item>Peras</item>
+        <item>Tomate</item>
+        <item>Platanos</item>
+        <item>Papel higienico</item>
+        <item>Detergente</item>
+        <item>Macarrones</item>
+        <item>Arroz</item>
+        <item>Champú</item>
+        <item>Gel</item>
+        <item>Pasta de dientes</item>
+        <item>Atún</item>
+        <item>Bacalao</item>
+        <item>Jamón de York</item>
+        <item>Salchichas</item>
+        <item>Berengenas</item>
+    </string-array>
+
+</resources>
