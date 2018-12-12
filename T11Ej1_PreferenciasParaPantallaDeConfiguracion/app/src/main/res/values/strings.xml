@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">T11Ej1_PreferenciasParaPantallaDeConfiguracion</string>
+    <string name="pref_sms_storage_title">STORAGE</string>
+    <string name="pref_title_auto_delete">Delete old messages</string>
+    <string name="pref_summary_auto_delete">Delete old messages as limit are reached</string>
+    <string name="pref_summary_delete_limit">Text message limit</string>
+    <string name="pref_title_sms_delete">500 messages per conversation</string>
+    <string name="pref_title_mms_delete">Multimedia message limit</string>
+    <string name="pref_country_title">Country</string>
+    <string name="pref_user">Username</string>
+    <string name="pref_username_title">Username</string>
+    <string name="pref_username_summary">Write your username</string>
+    <string name="pref_username_dialog">Write your username here</string>
+</resources>

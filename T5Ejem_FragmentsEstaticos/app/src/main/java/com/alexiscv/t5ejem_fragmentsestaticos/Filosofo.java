@@ -8,11 +8,22 @@ public class Filosofo {
     private String nombre;
     private List<String> citas;
 
+    /**
+     * Constructor
+     *
+     * @param idFoto
+     * @param nombre
+     * @param citas
+     */
     public Filosofo(int idFoto, String nombre, List<String> citas) {
         this.idFoto = idFoto;
         this.nombre = nombre;
         this.citas = citas;
     }
+
+    /**
+     * Getter & Setter
+     */
 
     public int getIdFoto() {
         return idFoto;
@@ -38,6 +49,11 @@ public class Filosofo {
         this.citas = citas;
     }
 
+    /**
+     * ToString
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return "Filosofo{" +
@@ -45,5 +61,18 @@ public class Filosofo {
                 ", nombre='" + nombre + '\'' +
                 ", citas=" + citas +
                 '}';
+    }
+
+    /**
+     * Devuelve en un solo String, todas las citas de un filosofo
+     *
+     * @return
+     */
+    public String getCitasToString() {
+        String citasString = "";
+        for (String cita : citas) {
+            citasString += cita + "\n\n";
+        }
+        return citasString;
     }
 }

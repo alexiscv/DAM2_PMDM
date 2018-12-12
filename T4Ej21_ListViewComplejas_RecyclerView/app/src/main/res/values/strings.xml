@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">T4Ej21_ListViewComplejas_RecyclerView</string>
+    <string name="EscribirAqui">Escribir y pulsar botón Añadir</string>
+    <string name="add">Añadir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar">Editar</string>
+</resources>

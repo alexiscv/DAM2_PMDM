@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botonTlf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="llamar"
+        android:text="Llamar por Tlf" />
+
+    <Button
+        android:id="@+id/botonTlf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="marcar"
+        android:text="Marcar Tlf" />
+
+    <Button
+        android:id="@+id/botonLocalizacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="localizacion"
+        android:text="Abrir localizacion" />
+
+    <Button
+        android:id="@+id/botonLocalizacion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="localizacionStreetView"
+        android:text="Abrir Street View" />
+
+    <Button
+        android:id="@+id/botonWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="web"
+        android:text="Abrir web con VIEW" />
+
+    <Button
+        android:id="@+id/botonWeb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="web_WS"
+        android:text="Abrir web con WEB_SEARCH" />
+
+    <Button
+        android:id="@+id/botonEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="email"
+        android:text="Enviar Email" />
+
+    <Button
+        android:id="@+id/botonFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="foto"
+        android:text="Tomar Foto" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe un nombre y pulsa verificar" />
+
+    <Button
+        android:id="@+id/botonCondiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirCondiciones"
+        android:text="Verificar" />
+
+    <TextView
+        android:id="@+id/tvDecision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

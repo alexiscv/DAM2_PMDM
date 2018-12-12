@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Extra_RecyclerView_Equipos</string>
+    <string name="aniadir">AÑADIR</string>
+    <string name="action_borrar">BORRAR</string>
+    <string name="labelNombreEquipo">Nombre Equipo:</string>
+    <string name="labelPuntosEquipo">Puntos Equipo:</string>
+    <string name="labelFotoEscudo">Escudo:</string>
+    <string name="sin_foto">Sin FOTO</string>
+    <string name="aniadirFoto">AÑADIR FOTO</string>
+    <string name="aniadirEquipo">AÑADIR EQUIPO NUEVO</string>
+</resources>

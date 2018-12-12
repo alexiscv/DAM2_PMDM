@@ -46,6 +46,13 @@
         android:text="@string/acercade" />
 
     <Button
+        android:id="@+id/salir"
+        style="@style/EstiloTexto.Botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salir" />
+
+    <Button
         android:id="@+id/puntuaciones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

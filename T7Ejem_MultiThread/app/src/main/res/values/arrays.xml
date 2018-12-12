@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="URLs">
+        <item>http://www.fmdos.cl/wp-content/uploads/2016/03/1.jpg</item>
+        <item>http://vignette3.wikia.nocookie.net/teenwolf/images/9/90/Crystal_Reed_003.jpeg</item>
+        <item>https://pbs.twimg.com/profile_images/699667844129107968/EvhTFBHN.jpg</item>
+        <item>http://vignette1.wikia.nocookie.net/teen-wolf-pack/images/0/0b/Holland-holland-roden-31699868-500-600.png</item>
+    </string-array>
+</resources>

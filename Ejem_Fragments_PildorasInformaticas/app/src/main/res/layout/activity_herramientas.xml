@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HerramientasActivity">
+
+    <fragment
+        android:id="@+id/fMenu"
+        android:name="com.alexiscv.ejem_fragments_pildorasinformaticas.FragmentMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_menu"></fragment>
+
+    <!-- Creamos un contenedor que contenga el fragment necesario -->
+    <RelativeLayout
+        android:id="@+id/rlHerramientas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <!-- Aquí cargaremos los fragmentos desde java -->
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

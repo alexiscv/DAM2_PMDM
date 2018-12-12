@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="NombresFilosofos">
+        <item>Socrates</item>
+        <item>Confuncio</item>
+        <item>Descartes</item>
+        <item>Platón</item>
+    </string-array>
+
+    <string-array name="CitasSocrates">
+        <item>No puedo enseñar nada a nadie. Solo puedo hacerles pensar.</item>
+        <item>Solo hay un dios, el conocimiento, y un demonio, la ignorancia.</item>
+        <item>El amigo ha de ser como el dinero, que antes de necesitarlo, se sabe el valor que tiene.</item>
+        <item>La verdadera sabiduría está en reconocer la propia ignorancia.</item>
+    </string-array>
+
+    <string-array name="CitasConfuncio">
+        <item>La vida es muy simple pero insistimos en hacerla complicada.</item>
+        <item>Exígete mucho a ti mismo y espera poco de los demás. Así te ahorrarás disgustos.</item>
+        <item>Saber que se sabe lo que se sabe y que no se sabe lo que no se sabe; he aquí el verdadero saber.</item>
+    </string-array>
+
+    <string-array name="CitasDescartes">
+        <item>Pienso luego existo.</item>
+        <item>Hasta una falsa alegría suele ser preferible a una verdadera tristeza.</item>
+    </string-array>
+
+    <string-array name="CitasPlaton">
+        <item>La música es para el alma lo que la gimnasia para el cuerpo</item>
+        <item>No dejes crecer la hierba en el camino de la amistad.</item>
+    </string-array>
+
+</resources>
